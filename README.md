@@ -147,6 +147,12 @@ w3env uninstall
 
 ---
 
+## License
+
+[GPL v3](LICENSE)
+
+---
+
 ## Support
 
 If w3env saves you time on a CTF or pentest, consider dropping a star on the repo - it helps a lot.
