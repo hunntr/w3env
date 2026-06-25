@@ -6,8 +6,6 @@ Tired of re-exporting `RPC_URL`, `TARGET`, `PRIVATE_KEY` every time you open a n
 
 Think of it like `pyenv` or `nvm`, but for Web3 environment variables.
 
----
-
 ## Install
 
 ```bash
@@ -25,8 +23,6 @@ source ~/.zshrc   # or ~/.bashrc
 ```
 
 That's it. Every new terminal loads the integration automatically.
-
----
 
 ## Interactive TUI
 
@@ -52,8 +48,6 @@ w3env
 | `q` | quit | quit |
 
 Activating a profile in the TUI exports its variables to your shell automatically (same as `w3env use`).
-
----
 
 ## CLI
 
@@ -110,8 +104,6 @@ w3env which
 w3env export
 ```
 
----
-
 ## Prompt
 
 Once the shell integration is installed, the active profile shows up in your prompt automatically:
@@ -119,8 +111,6 @@ Once the shell integration is installed, the active profile shows up in your pro
 ```
 [htb-blockchain] user@host ~ $
 ```
-
----
 
 ## Foundry tip
 
@@ -133,8 +123,6 @@ w3env set ETH_FROM    0xYourAddress
 cast send $TARGET "attack()"
 ```
 
----
-
 ## Data
 
 Profiles are stored in `~/.config/w3env/state.json` (`chmod 600`). Nothing is sent anywhere.
@@ -145,13 +133,9 @@ To uninstall the shell integration:
 w3env uninstall
 ```
 
----
-
 ## License
 
 [GPL v3](LICENSE)
-
----
 
 ## Support
 
